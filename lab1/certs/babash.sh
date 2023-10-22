@@ -8,7 +8,7 @@ fi
 
 DOMAIN=$1
 
-cd /Users/shayonabasu/Security/certs
+cd /Users/shayonabasu/Security/security-course/lab1/certs
 
 openssl genrsa -out $DOMAIN.key 2048
 openssl req -new -key $DOMAIN.key -out $DOMAIN.csr
